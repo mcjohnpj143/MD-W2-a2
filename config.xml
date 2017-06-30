@@ -7,4 +7,8 @@
 	<preference name="Fullscreen" value="true" />
 	<description>Who Wants To Be An IT Millionaire is a Hybrid Android Application V.1.0</description>
 	<icon src="images/logo2.png" />
+	 <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
 </widget>
